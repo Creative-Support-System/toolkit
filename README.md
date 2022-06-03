@@ -8,7 +8,7 @@
 
 # CodeIgniter Coding Style
 
-This repository contains the coding style followed by Worksome.
+This repository contains the coding style followed by Creative Support System.
 
 It includes configuration for `php-cs-fixer`, `psalm`, `phpstan` and `rector`.
 
