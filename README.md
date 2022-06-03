@@ -1,5 +1,5 @@
 
-<p align="center"><img src="/art/socialcard.png" alt="Social Card of Laravel Activity Log"></p>
+<p align="center"><img src="https://banners.beyondco.de/Coding%20Style.png?theme=light&packageManager=composer+require&packageName=creative-support-system%2Fcoding-style&pattern=architect&style=style_2&description=Coding+Style+for+CodeIgniter&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg" alt="Social Card of Laravel Activity Log"></p>
 
 [![Latest Stable Version](https://poser.pugx.org/creative-support-system/coding-style/v)](//packagist.org/packages/creative-support-system/coding-style)
 [![Total Downloads](https://poser.pugx.org/creative-support-system/coding-style/downloads)](//packagist.org/packages/creative-support-system/coding-style)
