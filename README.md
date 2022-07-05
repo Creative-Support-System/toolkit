@@ -1,5 +1,11 @@
-# CodeIgniter 3 Toolkit
-Development toolkit for CodeIgniter 3 libraries and projects
+<p align="center"><img src="https://banners.beyondco.de/CodeIgniter%203%20Toolkit.png?theme=dark&packageManager=composer+require&packageName=creative-support-system%2Fcodeigniter3-toolkit&pattern=architect&style=style_2&description=&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&widths=auto" alt="Social Card of CodeIgniter 3 Toolkit"></p>
+
+# Development toolkit for CodeIgniter 3 libraries and projects
+
+[![Latest Stable Version](https://poser.pugx.org/creative-support-system/codeigniter3-toolkit/v)](//packagist.org/packages/creative-support-system/codeigniter3-toolkit)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Coverage Status](https://coveralls.io/repos/github/Creative-Support-System/codeigniter3-toolkit/badge.svg?branch=main)](https://coveralls.io/github/Creative-Support-System/codeigniter3-toolkit?branch=main)
+[![Total Downloads](https://poser.pugx.org/creative-support-system/codeigniter3-toolkit/downloads)](//packagist.org/packages/creative-support-system/codeigniter3-toolkit)
 
 ## Installation
 
