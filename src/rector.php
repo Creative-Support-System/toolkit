@@ -40,18 +40,12 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
     // The paths to refactor (can also be supplied with CLI arguments)
     $rectorConfig->paths([
-        __DIR__ . '/app/',
-        __DIR__ . '/tests/',
+        __DIR__ . '/application/',
     ]);
 
     // Include Composer's autoload - required for global execution, remove if running locally
     $rectorConfig->autoloadPaths([
         __DIR__ . '/vendor/autoload.php',
-    ]);
-
-    // Do you need to include constants, class aliases, or a custom autoloader?
-    $rectorConfig->bootstrapFiles([
-        realpath(getcwd()) . '/vendor/codeigniter4/framework/system/Test/bootstrap.php',
     ]);
 
     if (is_file(__DIR__ . '/phpstan.neon.dist')) {
@@ -66,7 +60,7 @@ return static function (RectorConfig $rectorConfig): void {
 
     // Are there files or rules you need to skip?
     $rectorConfig->skip([
-        __DIR__ . '/app/Views',
+        __DIR__ . '/application/views',
 
         JsonThrowOnErrorRector::class,
         StringifyStrNeedlesRector::class,
@@ -76,12 +70,12 @@ return static function (RectorConfig $rectorConfig): void {
 
         // Ignore tests that might make calls without a result
         RemoveEmptyMethodCallRector::class => [
-            __DIR__ . '/tests',
+            __DIR__ . '/application/tests',
         ],
 
         // Ignore files that should not be namespaced
         NormalizeNamespaceByPSR4ComposerAutoloadRector::class => [
-            __DIR__ . '/app/Helpers',
+            __DIR__ . '/application/helpers',
         ],
 
         // May load view files directly when detecting classes
