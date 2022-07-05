@@ -4,7 +4,6 @@
 
 [![Latest Stable Version](https://poser.pugx.org/creative-support-system/codeigniter3-toolkit/v)](//packagist.org/packages/creative-support-system/codeigniter3-toolkit)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Coverage Status](https://coveralls.io/repos/github/Creative-Support-System/codeigniter3-toolkit/badge.svg?branch=main)](https://coveralls.io/github/Creative-Support-System/codeigniter3-toolkit?branch=main)
 [![Total Downloads](https://poser.pugx.org/creative-support-system/codeigniter3-toolkit/downloads)](//packagist.org/packages/creative-support-system/codeigniter3-toolkit)
 
 ## Installation
