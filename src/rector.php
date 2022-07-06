@@ -48,10 +48,6 @@ return static function (RectorConfig $rectorConfig): void {
         __DIR__ . '/vendor/autoload.php',
     ]);
 
-    if (is_file(__DIR__ . '/phpstan.neon.dist')) {
-        $rectorConfig->phpstanConfig(__DIR__ . '/phpstan.neon.dist');
-    }
-
     // Set the target version for refactoring
     $rectorConfig->phpVersion(PhpVersion::PHP_74);
 
