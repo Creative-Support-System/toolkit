@@ -16,24 +16,11 @@
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
         "nexusphp/cs-config": "^3.1",
-        "nexusphp/tachycardia": "^1.0",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.0",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.3",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "^4.22",
         "friendsofphp/php-cs-fixer": "^3.8",
         "ext-tokenizer": "*",
-        "rector/rector": "^0.13.7",
-        "kenjis/ci-phpunit-test": "^3.0"
+        "rector/rector": "^0.13.7"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "allow-plugins": {
-            "phpstan/extension-installer": true
-        }
-    }
+    "prefer-stable": true
 }
