@@ -15,7 +15,6 @@
 ### Styles and Standards
 
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-* [NexusPHP CS Config](https://github.com/NexusPHP/cs-config)
 
 ### Security
 
@@ -32,5 +31,4 @@ locally they will need to be installed. All of them (except Rector) are availabl
 * [Deptrac](https://github.com/qossmic/deptrac)
 * [Infection](https://infection.github.io/)
 * [PHP Coveralls](https://php-coveralls.github.io/php-coveralls/)
-* [PHP CS Fixer](https://cs.symfony.com/)
 * [Rector](https://github.com/rectorphp/rector/)
