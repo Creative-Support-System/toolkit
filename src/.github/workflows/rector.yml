@@ -3,7 +3,7 @@ name: Rector
 on:
   pull_request:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - 'composer.*'
@@ -11,7 +11,7 @@ on:
       - '.github/workflows/rector.yml'
   push:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - 'composer.*'
@@ -60,8 +60,7 @@ jobs:
           else
             composer update --no-progress --no-interaction --prefer-dist --optimize-autoloader
           fi
-
       - name: Analyze for refactoring
         run: |
-          composer global require --dev rector/rector:^0.12.16
+          composer global require --dev rector/rector:^0.13.3
           rector process --dry-run --no-progress-bar

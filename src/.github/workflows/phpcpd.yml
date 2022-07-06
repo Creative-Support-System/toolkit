@@ -3,13 +3,13 @@ name: PHPCPD
 on:
   pull_request:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - '.github/workflows/phpcpd.yml'
   push:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - '.github/workflows/phpcpd.yml'
@@ -33,4 +33,4 @@ jobs:
           coverage: none
 
       - name: Detect duplicate code
-        run: phpcpd app/ tests/
+        run: phpcpd application/
