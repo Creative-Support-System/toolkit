@@ -1,15 +1,17 @@
+
+
 name: PHPCSFixer
 
 on:
   pull_request:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - '.github/workflows/phpcsfixer.yml'
   push:
     branches:
-      - develop
+      - development
     paths:
       - '**.php'
       - '.github/workflows/phpcsfixer.yml'
@@ -55,6 +57,5 @@ jobs:
           else
             composer update --no-progress --no-interaction --prefer-dist --optimize-autoloader
           fi
-
       - name: Check code for standards compliance
         run: vendor/bin/php-cs-fixer fix --verbose --ansi --dry-run --using-cache=no --diff
