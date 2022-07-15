@@ -1,5 +1,5 @@
 {
-    "name": "creative-support-system/codeigniter3-toolkit",
+    "name": "creative-support-system/toolkit",
     "type": "library",
     "description": "Development toolkit for CodeIgniter 3 libraries and projects",
     "keywords": [
@@ -9,7 +9,7 @@
         "development",
         "tools"
     ],
-    "homepage": "https://github.com/Creative-Support-System/codeigniter3-toolkit",
+    "homepage": "https://github.com/Creative-Support-System/toolkit",
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
